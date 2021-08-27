@@ -1,3 +1,3 @@
-FROM push1995/website
+FROM hshar/webapp:latest
 ADD . /var/www/html
 
