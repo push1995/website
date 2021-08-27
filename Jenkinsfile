@@ -18,13 +18,13 @@ pipeline{
             }
 
  }
-      stage('Deploy Stage')
+      stage('Deploy Stage'){
          steps{
              withMaven(maven : 'maven') {
                 sh 'mvn deploy'
                }
             }
 }
-}
+
  }
 
